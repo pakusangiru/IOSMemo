@@ -11,23 +11,23 @@
 		4E7325BB29A3839E000848EB /* SwiftUIMemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4E7325A729A3839B000848EB /* SwiftUIMemo.xcdatamodeld */; };
 		4E7325BC29A3839E000848EB /* SwiftUIMemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7325A929A3839B000848EB /* SwiftUIMemoApp.swift */; };
 		4E7325BD29A3839E000848EB /* SwiftUIMemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7325A929A3839B000848EB /* SwiftUIMemoApp.swift */; };
-		4E7325BE29A3839E000848EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7325AA29A3839B000848EB /* ContentView.swift */; };
-		4E7325BF29A3839E000848EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7325AA29A3839B000848EB /* ContentView.swift */; };
 		4E7325C029A3839E000848EB /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7325AB29A3839B000848EB /* Persistence.swift */; };
 		4E7325C129A3839E000848EB /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7325AB29A3839B000848EB /* Persistence.swift */; };
 		4E7325C229A3839E000848EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E7325AC29A3839E000848EB /* Assets.xcassets */; };
 		4E7325C329A3839E000848EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E7325AC29A3839E000848EB /* Assets.xcassets */; };
+		4E7325CD29A3841A000848EB /* MainListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7325CC29A3841A000848EB /* MainListView.swift */; };
+		4E7325CE29A3841A000848EB /* MainListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7325CC29A3841A000848EB /* MainListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4E7325A829A3839B000848EB /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
 		4E7325A929A3839B000848EB /* SwiftUIMemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIMemoApp.swift; sourceTree = "<group>"; };
-		4E7325AA29A3839B000848EB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4E7325AB29A3839B000848EB /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		4E7325AC29A3839E000848EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E7325B129A3839E000848EB /* SwiftUIMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E7325B729A3839E000848EB /* SwiftUIMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E7325B929A3839E000848EB /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		4E7325CC29A3841A000848EB /* MainListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +60,11 @@
 		4E7325A629A3839B000848EB /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				4E7325D029A3845A000848EB /* Memory */,
+				4E7325CF29A38448000848EB /* CoreData */,
 				4E7325A929A3839B000848EB /* SwiftUIMemoApp.swift */,
-				4E7325AA29A3839B000848EB /* ContentView.swift */,
-				4E7325AB29A3839B000848EB /* Persistence.swift */,
+				4E7325CC29A3841A000848EB /* MainListView.swift */,
 				4E7325AC29A3839E000848EB /* Assets.xcassets */,
-				4E7325A729A3839B000848EB /* SwiftUIMemo.xcdatamodeld */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -84,6 +84,22 @@
 				4E7325B929A3839E000848EB /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		4E7325CF29A38448000848EB /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				4E7325AB29A3839B000848EB /* Persistence.swift */,
+				4E7325A729A3839B000848EB /* SwiftUIMemo.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		4E7325D029A3845A000848EB /* Memory */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Memory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,9 +201,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E7325BA29A3839E000848EB /* SwiftUIMemo.xcdatamodeld in Sources */,
+				4E7325CD29A3841A000848EB /* MainListView.swift in Sources */,
 				4E7325C029A3839E000848EB /* Persistence.swift in Sources */,
 				4E7325BC29A3839E000848EB /* SwiftUIMemoApp.swift in Sources */,
-				4E7325BE29A3839E000848EB /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,9 +212,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E7325BB29A3839E000848EB /* SwiftUIMemo.xcdatamodeld in Sources */,
+				4E7325CE29A3841A000848EB /* MainListView.swift in Sources */,
 				4E7325C129A3839E000848EB /* Persistence.swift in Sources */,
 				4E7325BD29A3839E000848EB /* SwiftUIMemoApp.swift in Sources */,
-				4E7325BF29A3839E000848EB /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
