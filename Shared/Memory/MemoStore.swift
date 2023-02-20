@@ -7,7 +7,7 @@
 
 import Foundation
 
-class MemoStrore: ObservableObject {
+class MemoStore: ObservableObject {
     @Published var list: [Memo]
     
     init() {
@@ -36,7 +36,7 @@ class MemoStrore: ObservableObject {
     
     func delete(set: IndexSet) {
         for index in set {
-            list.remote(at: index)
+            list.remove(at: index)
         }
     }
 }
