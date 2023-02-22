@@ -2,7 +2,7 @@
 //  MemoCell.swift
 //  SwiftUIMemo
 //
-//  Created by park sangil on 2023/02/20.
+//  Created by park sangil on 2023/02/22.
 //
 
 import SwiftUI
@@ -10,19 +10,19 @@ import SwiftUI
 struct MemoCell: View {
     @ObservedObject var memo: Memo
     
+    
     var body: some View {
-        VStack(alignment:.leading) {
+        VStack(alignment: .leading) {
             Text(memo.content)
-            font(.body)
+                .font(.body)
                 .lineLimit(1)
             
-            Text(memo.insertDate,style:  .date)
-                .font(.callout)
+            Text(memo.insertDate, style: .date)
+                .font(.caption)
                 .foregroundColor(.secondary)
         }
     }
 }
-
 
 struct MemoCell_Previews: PreviewProvider {
     static var previews: some View {

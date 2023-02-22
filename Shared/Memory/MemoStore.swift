@@ -2,27 +2,28 @@
 //  MemoStore.swift
 //  SwiftUIMemo
 //
-//  Created by park sangil on 2023/02/20.
+//  Created by park sangil on 2023/02/22.
 //
 
 import Foundation
+import SwiftUI
 
 class MemoStore: ObservableObject {
     @Published var list: [Memo]
     
     init() {
         list = [
-            Memo(content: "Hello", insertDate: Date.now),
-            Memo(content: "Awesome", insertDate: Date.now.addingTimeInterval(3600 * -24 )),
-            Memo(content: "Awesome", insertDate: Date.now.addingTimeInterval(3600 * -48 )),
-        
+            Memo(content: "Hello",  insertDate: Date.now),
+            Memo(content: "Awesome", insertDate: Date.now.addingTimeInterval(3600 * -24)),
+            Memo(content: "SwiftUI", insertDate: Date.now.addingTimeInterval(3600 * -48))
         ]
     }
-    func insert(memo: String) {
-        list.insert(Memo(content:memo), at: 0)
+    
+    func insert(memo: String){
+        list.insert(Memo(content: memo),at: 0)
     }
     
-    func update(memo: Memo?, content: String) {
+    func update(memo: Memo?, content: String){
         guard let memo = memo else {
             return
         }
@@ -30,7 +31,7 @@ class MemoStore: ObservableObject {
         memo.content = content
     }
     
-    func delete(memo: Memo) {
+    func delete(memo: Memo){
         list.removeAll { $0.id == memo.id }
     }
     
@@ -39,4 +40,5 @@ class MemoStore: ObservableObject {
             list.remove(at: index)
         }
     }
+    
 }

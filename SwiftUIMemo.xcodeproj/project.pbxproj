@@ -15,16 +15,14 @@
 		4E7325C129A3839E000848EB /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7325AB29A3839B000848EB /* Persistence.swift */; };
 		4E7325C229A3839E000848EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E7325AC29A3839E000848EB /* Assets.xcassets */; };
 		4E7325C329A3839E000848EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E7325AC29A3839E000848EB /* Assets.xcassets */; };
-		4E7325CD29A3841A000848EB /* MainListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7325CC29A3841A000848EB /* MainListView.swift */; };
-		4E7325CE29A3841A000848EB /* MainListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7325CC29A3841A000848EB /* MainListView.swift */; };
-		4E7325D229A386AB000848EB /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7325D129A386AB000848EB /* Memo.swift */; };
-		4E7325D329A386AB000848EB /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7325D129A386AB000848EB /* Memo.swift */; };
-		4E7325D829A38768000848EB /* MemoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7325D729A38768000848EB /* MemoStore.swift */; };
-		4E7325D929A38768000848EB /* MemoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7325D729A38768000848EB /* MemoStore.swift */; };
-		4E7325DC29A38DFC000848EB /* MemoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7325DB29A38DFC000848EB /* MemoCell.swift */; };
-		4E7325DD29A38DFC000848EB /* MemoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7325DB29A38DFC000848EB /* MemoCell.swift */; };
-		4E7325DF29A38FDA000848EB /* ComposeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7325DE29A38FDA000848EB /* ComposeView.swift */; };
-		4E7325E029A38FDA000848EB /* ComposeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7325DE29A38FDA000848EB /* ComposeView.swift */; };
+		4E7325E229A64D38000848EB /* MainListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7325E129A64D38000848EB /* MainListView.swift */; };
+		4E7325E329A64D38000848EB /* MainListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7325E129A64D38000848EB /* MainListView.swift */; };
+		4E7325E729A64DAD000848EB /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7325E629A64DAD000848EB /* Memo.swift */; };
+		4E7325E829A64DAD000848EB /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7325E629A64DAD000848EB /* Memo.swift */; };
+		4E7325EA29A64E2C000848EB /* MemoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7325E929A64E2C000848EB /* MemoStore.swift */; };
+		4E7325EB29A64E2C000848EB /* MemoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7325E929A64E2C000848EB /* MemoStore.swift */; };
+		4E7325F129A65993000848EB /* MemoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7325F029A65993000848EB /* MemoCell.swift */; };
+		4E7325F229A65993000848EB /* MemoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7325F029A65993000848EB /* MemoCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,11 +33,10 @@
 		4E7325B129A3839E000848EB /* SwiftUIMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E7325B729A3839E000848EB /* SwiftUIMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E7325B929A3839E000848EB /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
-		4E7325CC29A3841A000848EB /* MainListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainListView.swift; sourceTree = "<group>"; };
-		4E7325D129A386AB000848EB /* Memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
-		4E7325D729A38768000848EB /* MemoStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoStore.swift; sourceTree = "<group>"; };
-		4E7325DB29A38DFC000848EB /* MemoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoCell.swift; sourceTree = "<group>"; };
-		4E7325DE29A38FDA000848EB /* ComposeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeView.swift; sourceTree = "<group>"; };
+		4E7325E129A64D38000848EB /* MainListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainListView.swift; sourceTree = "<group>"; };
+		4E7325E629A64DAD000848EB /* Memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
+		4E7325E929A64E2C000848EB /* MemoStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoStore.swift; sourceTree = "<group>"; };
+		4E7325F029A65993000848EB /* MemoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,10 +69,10 @@
 		4E7325A629A3839B000848EB /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				4E7325DA29A38DE9000848EB /* View */,
-				4E7325D029A3845A000848EB /* Memory */,
-				4E7325CF29A38448000848EB /* CoreData */,
-				4E7325A929A3839B000848EB /* SwiftUIMemoApp.swift */,
+				4E7325EF29A6597D000848EB /* View */,
+				4E7325E529A64D58000848EB /* Memory */,
+				4E7325E429A64D50000848EB /* CoreData */,
+				4E7325E129A64D38000848EB /* MainListView.swift */,
 				4E7325AC29A3839E000848EB /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -98,30 +95,29 @@
 			path = macOS;
 			sourceTree = "<group>";
 		};
-		4E7325CF29A38448000848EB /* CoreData */ = {
+		4E7325E429A64D50000848EB /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
 				4E7325AB29A3839B000848EB /* Persistence.swift */,
 				4E7325A729A3839B000848EB /* SwiftUIMemo.xcdatamodeld */,
+				4E7325A929A3839B000848EB /* SwiftUIMemoApp.swift */,
 			);
 			path = CoreData;
 			sourceTree = "<group>";
 		};
-		4E7325D029A3845A000848EB /* Memory */ = {
+		4E7325E529A64D58000848EB /* Memory */ = {
 			isa = PBXGroup;
 			children = (
-				4E7325D129A386AB000848EB /* Memo.swift */,
-				4E7325D729A38768000848EB /* MemoStore.swift */,
+				4E7325E629A64DAD000848EB /* Memo.swift */,
+				4E7325E929A64E2C000848EB /* MemoStore.swift */,
 			);
 			path = Memory;
 			sourceTree = "<group>";
 		};
-		4E7325DA29A38DE9000848EB /* View */ = {
+		4E7325EF29A6597D000848EB /* View */ = {
 			isa = PBXGroup;
 			children = (
-				4E7325DB29A38DFC000848EB /* MemoCell.swift */,
-				4E7325CC29A3841A000848EB /* MainListView.swift */,
-				4E7325DE29A38FDA000848EB /* ComposeView.swift */,
+				4E7325F029A65993000848EB /* MemoCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -224,14 +220,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E7325DC29A38DFC000848EB /* MemoCell.swift in Sources */,
+				4E7325F129A65993000848EB /* MemoCell.swift in Sources */,
 				4E7325BA29A3839E000848EB /* SwiftUIMemo.xcdatamodeld in Sources */,
-				4E7325D829A38768000848EB /* MemoStore.swift in Sources */,
-				4E7325CD29A3841A000848EB /* MainListView.swift in Sources */,
+				4E7325EA29A64E2C000848EB /* MemoStore.swift in Sources */,
+				4E7325E229A64D38000848EB /* MainListView.swift in Sources */,
 				4E7325C029A3839E000848EB /* Persistence.swift in Sources */,
-				4E7325DF29A38FDA000848EB /* ComposeView.swift in Sources */,
 				4E7325BC29A3839E000848EB /* SwiftUIMemoApp.swift in Sources */,
-				4E7325D229A386AB000848EB /* Memo.swift in Sources */,
+				4E7325E729A64DAD000848EB /* Memo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,14 +234,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E7325DD29A38DFC000848EB /* MemoCell.swift in Sources */,
+				4E7325F229A65993000848EB /* MemoCell.swift in Sources */,
 				4E7325BB29A3839E000848EB /* SwiftUIMemo.xcdatamodeld in Sources */,
-				4E7325D929A38768000848EB /* MemoStore.swift in Sources */,
-				4E7325CE29A3841A000848EB /* MainListView.swift in Sources */,
+				4E7325EB29A64E2C000848EB /* MemoStore.swift in Sources */,
+				4E7325E329A64D38000848EB /* MainListView.swift in Sources */,
 				4E7325C129A3839E000848EB /* Persistence.swift in Sources */,
-				4E7325E029A38FDA000848EB /* ComposeView.swift in Sources */,
 				4E7325BD29A3839E000848EB /* SwiftUIMemoApp.swift in Sources */,
-				4E7325D329A386AB000848EB /* Memo.swift in Sources */,
+				4E7325E829A64DAD000848EB /* Memo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
