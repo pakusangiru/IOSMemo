@@ -25,6 +25,8 @@
 		4E7325F229A65993000848EB /* MemoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7325F029A65993000848EB /* MemoCell.swift */; };
 		4E7325F429A65C24000848EB /* ComposeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7325F329A65C24000848EB /* ComposeView.swift */; };
 		4E7325F529A65C24000848EB /* ComposeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7325F329A65C24000848EB /* ComposeView.swift */; };
+		4E7325F729A6643C000848EB /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7325F629A6643C000848EB /* DetailView.swift */; };
+		4E7325F829A6643C000848EB /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7325F629A6643C000848EB /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,7 @@
 		4E7325E929A64E2C000848EB /* MemoStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoStore.swift; sourceTree = "<group>"; };
 		4E7325F029A65993000848EB /* MemoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoCell.swift; sourceTree = "<group>"; };
 		4E7325F329A65C24000848EB /* ComposeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeView.swift; sourceTree = "<group>"; };
+		4E7325F629A6643C000848EB /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +125,7 @@
 				4E7325F029A65993000848EB /* MemoCell.swift */,
 				4E7325E129A64D38000848EB /* MainListView.swift */,
 				4E7325F329A65C24000848EB /* ComposeView.swift */,
+				4E7325F629A6643C000848EB /* DetailView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -225,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E7325F129A65993000848EB /* MemoCell.swift in Sources */,
+				4E7325F729A6643C000848EB /* DetailView.swift in Sources */,
 				4E7325BA29A3839E000848EB /* SwiftUIMemo.xcdatamodeld in Sources */,
 				4E7325EA29A64E2C000848EB /* MemoStore.swift in Sources */,
 				4E7325E229A64D38000848EB /* MainListView.swift in Sources */,
@@ -240,6 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E7325F229A65993000848EB /* MemoCell.swift in Sources */,
+				4E7325F829A6643C000848EB /* DetailView.swift in Sources */,
 				4E7325BB29A3839E000848EB /* SwiftUIMemo.xcdatamodeld in Sources */,
 				4E7325EB29A64E2C000848EB /* MemoStore.swift in Sources */,
 				4E7325E329A64D38000848EB /* MainListView.swift in Sources */,
